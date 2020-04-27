@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    font-family: Open Sans;
+}
+
+.main-nav{
+    background: #F7CB82;
+    height: 102px;
+    width: 100%;
+}
+
+.nav-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.nav-btn{
+    width: 156px;
+    height: 30px;
+    border-radius: 2px ;
+    color: #ffffff ;
+    font-size: 10px ;
+    border: none ;
+}
+
+.nav-btn.register{
+    background: #EF5350;
+}
+
+.nav-btn.login{
+    background: #575353;
+}
+
+.nav-pills .nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-pills .nav-link .sport-circle{
+    width: 32px;
+    height: 32px;
+    background: #F7CB82;
+    border-radius: 50px;
+}
+
+.nav-pills .nav-link .sport-name{
+    color: #000000;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.nav-pills .nav-link.active .sport-circle{
+    width: 32px;
+    height: 32px;
+    background: #575353;
+    border-radius: 50px;
+}
+
+.nav-pills .nav-link.active .sport-name{
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+   background: none;
+}
+
+.bet-body{
+    background: #F3EAC6;
+}
+
+.tab-content{
+    position: relative;
+    background: #575353;
+}
+
+.picked-tab{
+    color: #F3EAC6;
+    font-size: 12px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 4px solid #575353;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    flex-wrap: nowrap;
+}
+
+.competition-name{
+    background: #F7CB82;
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.competition-logo{
+    width: 16px;
+    height: 16px;
+    background: #575353;
+    border-radius: 50px;
+}
+
+.competition-name span{
+    font-size: 12px;
+}
+
+.event-price{
+    width: 61px;
+    height: 40px;
+    background: #F7CB82;
+    margin: 1px;
+}
+
+.match{
+    background: #F3EAC6;
+    font-size: 12px;
+    border-bottom:  1px solid #DADADA;
+    padding: 10px;
+    margin: 0;
+}
+
+.bet-buttons{
+    position: fixed;
+    background: #F3EAC6;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
